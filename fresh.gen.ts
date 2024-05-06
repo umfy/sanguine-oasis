@@ -7,7 +7,7 @@ import * as $_app from "./routes/_app.tsx";
 import * as $index from "./routes/index.tsx";
 import * as $rules_slug_ from "./routes/rules/[slug].tsx";
 import * as $rules_index from "./routes/rules/index.tsx";
-
+import * as $PageThumbnail from "./islands/PageThumbnail.tsx";
 import { type Manifest } from "$fresh/server.ts";
 
 const manifest = {
@@ -18,7 +18,9 @@ const manifest = {
     "./routes/rules/[slug].tsx": $rules_slug_,
     "./routes/rules/index.tsx": $rules_index,
   },
-  islands: {},
+  islands: {
+    "./islands/PageThumbnail.tsx": $PageThumbnail,
+  },
   baseUrl: import.meta.url,
 } satisfies Manifest;
 
