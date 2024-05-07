@@ -97,7 +97,7 @@
   }
   
   #left-side .fancy {
-    color: white;
+    color: #d1d5db;
   }
   
   #right-side {
@@ -105,7 +105,7 @@
   }
   
   #right-side .title {
-    color: white;
+    color: #d1d5db;
   }
   
   #right-side .fancy {
@@ -134,4 +134,22 @@
   .content {
     padding-inline: 3rem;
     margin-block-start: calc(150px + 40vh + 15vw);
+  }
+
+  .my-anchor {
+  float: left;
+  margin-left: -20px;
+  padding-right: 4px;
+  line-height: 0.8;
+  }
+
+  .my-anchor .octicon {
+    display: inline;
+    fill: currentColor;
+    vertical-align: middle;
+    visibility: hidden;
+  }
+  
+  .my-headline:hover .octicon {
+    visibility: visible;
   }

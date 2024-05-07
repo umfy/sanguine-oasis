@@ -5,7 +5,7 @@ updated: 6.05.2024
 snippet: details
 ---
 
-## Dice Mechanics
+# Dice Mechanics
 
 When the situation is difficult the GM may demand a roll to test the character's
 skill. In that case the adequate skill die is rolled besides the base roll which

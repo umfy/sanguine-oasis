@@ -1,6 +1,6 @@
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { getPosts, Post } from "@/utils/posts.ts";
-import { Page, Navigation } from "@/components/Typography.tsx";
+import { Navigation, Page } from "@/components/Typography.tsx";
 export const handler: Handlers<Post[]> = {
   async GET(_req, ctx) {
     const posts = await getPosts();
@@ -10,12 +10,15 @@ export const handler: Handlers<Post[]> = {
 
 export default function BlogIndexPage(props: PageProps<Post[]>) {
   const posts = props.data;
+
   return (
     <Page className="pt-4">
       <div class="logo">
         <h1 class="title text-5xl">
           <span class="text-left">Sanguine</span>
-          <span class="text-right fancy block text-gray-300 text-[5.2rem]">Oasis</span>
+          <span class="text-right fancy block text-gray-300 text-[1.8em]">
+            Oasis
+          </span>
         </h1>
       </div>
       <div class="flex flex-col items-center pt-12">
@@ -29,7 +32,6 @@ export default function BlogIndexPage(props: PageProps<Post[]>) {
         </ol>
       </div>
       <Navigation href="/">Go back</Navigation>
-
     </Page>
   );
 }
