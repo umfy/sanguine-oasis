@@ -132,5 +132,6 @@
   }
 
   .content {
+    padding-inline: 3rem;
     margin-block-start: calc(150px + 40vh + 15vw);
   }
