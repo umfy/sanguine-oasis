@@ -44,7 +44,7 @@ export function DictionaryEntry(props: DictionaryEntryProps) {
           <div class="inline-block">
             <div class="flex flex-col items-center">
               <h2 class="text-4xl">{props.word}</h2>
-              <p class="pt-2 text-2xl">{props.pronounciation}</p>
+              <p class="pt-2 text-2xl whitespace-nowrap">{props.pronounciation}</p>
             </div>
           </div>
         </section>
