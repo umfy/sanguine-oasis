@@ -2,7 +2,6 @@
 
 The Role-playing game
 
-
 ### Repository usage:
 
 Make sure to install Deno: https://deno.land/manual/getting_started/installation

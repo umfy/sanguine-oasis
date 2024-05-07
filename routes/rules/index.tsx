@@ -1,6 +1,6 @@
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { getPosts, Post } from "@/utils/posts.ts";
-import { Page } from "@/components/Typography.tsx";
+import { Page, Navigation } from "@/components/Typography.tsx";
 export const handler: Handlers<Post[]> = {
   async GET(_req, ctx) {
     const posts = await getPosts();
@@ -22,9 +22,8 @@ export default function BlogIndexPage(props: PageProps<Post[]>) {
           ))}
         </ol>
       </div>
-      <div class="mt-32 text-2xl w-full text-center">
-        <a href="/">Go back</a>
-      </div>
+      <Navigation href="/">Go back</Navigation>
+
     </Page>
   );
 }

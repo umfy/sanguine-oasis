@@ -1,4 +1,5 @@
 import { ComponentChildren } from "preact";
+import { JSX } from "preact";
 interface PageProps {
   className?: string;
   children: ComponentChildren;
@@ -10,12 +11,23 @@ export function Page(props: PageProps) {
       class={`flex flex-col max-w-screen-lg min-h-screen mx-auto px-12 ${props.className}`}
     >
       {props.children}
-      <div class="text-center mt-auto">
-        this is footer
+      <Footer></Footer>
+    </div>
+  );
+}
+
+export function Footer() {
+  return (
+    <div class="text-center mt-auto pt-20 relative">
+      <span class="footer-line"></span>
+      <div class="flex justify-center gap-8 pb-4">
+        <a href="https://github.com/umfy/sanguine-oasis" class="hover:text-gray-50">Github</a>
+        <a href="/license" class="hover:text-gray-50">License</a>
       </div>
     </div>
   );
 }
+
 
 type DictionaryEntryProps = {
   word: string;
@@ -45,6 +57,14 @@ export function DictionaryEntry(props: DictionaryEntryProps) {
           </p>
         </section>
       </div>
+    </div>
+  );
+}
+
+export function Navigation(props: JSX.HTMLAttributes<HTMLAnchorElement>) {
+  return (
+    <div class="underline mt-32 text-2xl w-full text-center hover:text-gray-50">
+      <a {...props}></a>
     </div>
   );
 }

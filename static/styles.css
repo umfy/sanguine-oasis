@@ -19,8 +19,12 @@
     background-color: var(--c2)!important;
   }
 
-  .markdown-body h2 {
+  .markdown-body h1, h2, h3, h4, h5, h6 {
     border-color: var(--dark)!important;
+  }
+
+  .markdown-body table {
+    margin-inline: auto;
   }
 
   .markdown-body table tr, th, td {
@@ -97,4 +101,17 @@
     to {
       height: 0;
     }
+  }
+
+  .footer-line {
+    position: absolute;
+    top: 4rem;
+    left: -50vw;
+    width: 200vw;
+    height: 1px;;
+    background-color: var(--dark);
+  }
+
+  .content {
+    margin-block-start: calc(150px + 40vh + 15vw);
   }
