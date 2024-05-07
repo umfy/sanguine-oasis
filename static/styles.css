@@ -40,15 +40,28 @@
     width: 100%;
   }
   
-  .side .title {
+  .title {
     font-family: "Montserrat", sans-serif;
-    font-size: calc(2rem + 5vw);
     font-weight: 800;
+  }
+  .side .title {
+    font-size: calc(2rem + 5vw);
     margin-inline: calc(50vw - 4ch);
+  }
+
+  .fancy {
+    font-family: "Permanent Marker", cursive;
+  }
+
+  .logo .title {
+    transform: rotate(-10deg);
+  }
+
+  .logo .fancy {
+    transform: rotate(12deg);
   }
   
   .side .fancy {
-    font-family: "Permanent Marker", cursive;
     font-size: 1.8em;
     line-height: 0.6em;
   }

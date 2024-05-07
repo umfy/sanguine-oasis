@@ -5,6 +5,7 @@
 import * as $_404 from "./routes/_404.tsx";
 import * as $_app from "./routes/_app.tsx";
 import * as $index from "./routes/index.tsx";
+import * as $license_index from "./routes/license/index.tsx";
 import * as $rules_slug_ from "./routes/rules/[slug].tsx";
 import * as $rules_index from "./routes/rules/index.tsx";
 import * as $PageThumbnail from "./islands/PageThumbnail.tsx";
@@ -15,6 +16,7 @@ const manifest = {
     "./routes/_404.tsx": $_404,
     "./routes/_app.tsx": $_app,
     "./routes/index.tsx": $index,
+    "./routes/license/index.tsx": $license_index,
     "./routes/rules/[slug].tsx": $rules_slug_,
     "./routes/rules/index.tsx": $rules_index,
   },
