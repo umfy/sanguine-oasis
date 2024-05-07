@@ -8,7 +8,7 @@ interface PageProps {
 export function Page(props: PageProps) {
   return (
     <div
-      class={`flex flex-col max-w-screen-lg min-h-screen mx-auto px-12 ${props.className}`}
+      class={`flex flex-col max-w-screen-lg min-h-screen mx-auto px-4 sm:px-12 ${props.className}`}
     >
       {props.children}
       <Footer></Footer>
@@ -21,7 +21,7 @@ export function Footer() {
     <div class="text-center mt-auto pt-20 relative">
       <span class="footer-line"></span>
       <div class="flex justify-center gap-8 pb-4">
-        <a href="https://github.com/umfy/sanguine-oasis" class="hover:text-gray-50">Github</a>
+        <a href="https://github.com/umfy/sanguine-oasis" class="hover:text-gray-50">Source</a>
         <a href="/license" class="hover:text-gray-50">License</a>
       </div>
     </div>

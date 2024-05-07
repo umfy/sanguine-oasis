@@ -14,13 +14,13 @@ export default function BlogIndexPage(props: PageProps<Post[]>) {
     <Page className="pt-4">
       <div class="logo">
         <h1 class="title text-5xl">
-          <span class="text-left text-gray-900">Sanguine</span>
+          <span class="text-left">Sanguine</span>
           <span class="text-right fancy block text-gray-300 text-[5.2rem]">Oasis</span>
         </h1>
       </div>
       <div class="flex flex-col items-center pt-12">
-        <h1 class="text-4xl px-4 mb-4">Table of contents</h1>
-        <ol className="list-decimal px-8 text-2xl">
+        <h2 class="text-4xl mb-4">Table of contents</h2>
+        <ol className="list-decimal text-2xl">
           {posts.map((post) => (
             <li key={post.id}>
               <PostCard post={post} />

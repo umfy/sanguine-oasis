@@ -3,14 +3,19 @@
 @tailwind utilities;
 
 :root {
-    --dark: rgb(20, 20, 20);
+    --dark: #1f2328;
     --c2: rgb(186, 52, 52);
     
     --left-color: var(--dark);
     --right-color: var(--c2);
   }
+
+  .text-dark {
+    color: var(--dark);
+  }
   
   body {  
+    color: var(--dark);
     background-color: var(--c2);
     margin: 0px;
   }
@@ -117,11 +122,12 @@
   }
 
   .footer-line {
-    position: absolute;
     top: 4rem;
-    left: -50vw;
-    width: 200vw;
-    height: 1px;;
+    left: 50%;
+    width: 100vw;
+    transform: translateX(-50%);
+    position: absolute;
+    height: 1px;
     background-color: var(--dark);
   }
 
