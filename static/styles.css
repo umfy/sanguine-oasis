@@ -4,13 +4,9 @@
 
 :root {
     --dark: rgb(20, 20, 20);
-    --yellow: rgb(253, 216, 53);
-    --blue: rgb(98, 0, 234);
-    
-    --c1: rgb(3, 7, 18);
     --c2: rgb(186, 52, 52);
     
-    --left-color: var(--c1);
+    --left-color: var(--dark);
     --right-color: var(--c2);
   }
   
@@ -18,7 +14,20 @@
     background-color: var(--c2);
     margin: 0px;
   }
-  
+
+  .markdown-body {
+    background-color: var(--c2)!important;
+  }
+
+  .markdown-body h2 {
+    border-color: var(--dark)!important;
+  }
+
+  .markdown-body table tr, th, td {
+    background-color: unset!important;
+    border-color: var(--dark)!important;
+  }
+
   .side {
     padding-block-start: 25vh;
     height: 100vh;
@@ -31,8 +40,7 @@
     font-family: "Montserrat", sans-serif;
     font-size: calc(2rem + 5vw);
     font-weight: 800;
-    margin: 0px 10vw;
-    width: 80vw;
+    margin-inline: calc(50vw - 4ch);
   }
   
   .side .fancy {
@@ -41,21 +49,26 @@
     line-height: 0.6em;
   }
   
-  @keyframes sizeChange {
-    0% { width: 100%; }
-     100% { width: 0%; }
-  }
-  
   #left-side {
     background-color: var(--left-color);
     width: 100%;
     z-index: 2;
-    padding-block-end: 200vh;
+    padding-block-end: 135vh;
+  }
+  
+  #bottom-left-side {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30vh;
+    background-color: var(--dark);
   }
 
-  #left-side.animate {
+  #left-side.animate, #bottom-left-side.animate {
     width: 0%;
-    animation: sizeChange 2s cubic-bezier(.17,.84,.44,1);  }
+    transition: all 2s cubic-bezier(.17,.84,.44,1);  
+  }
   
   #left-side .title {  
     color: var(--right-color);  
@@ -75,4 +88,13 @@
   
   #right-side .fancy {
     color: var(--dark);
+  }
+
+  @keyframes animateHeight {
+    from {
+      height: 30vh;
+    }
+    to {
+      height: 0;
+    }
   }

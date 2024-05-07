@@ -1,6 +1,6 @@
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { getPosts, Post } from "@/utils/posts.ts";
-import { Heading } from "../../components/Typography.tsx";
+import { Page } from "@/components/Typography.tsx";
 export const handler: Handlers<Post[]> = {
   async GET(_req, ctx) {
     const posts = await getPosts();
@@ -11,16 +11,21 @@ export const handler: Handlers<Post[]> = {
 export default function BlogIndexPage(props: PageProps<Post[]>) {
   const posts = props.data;
   return (
-    <main class="max-w-screen-md pt-16 mx-auto">
-      <Heading title="Rules" />
-      <ol className="list-decimal px-8 text-2xl">
-        {posts.map((post) => (
-          <li key={post.id}>
-            <PostCard post={post} />
-          </li>
-        ))}
-      </ol>
-    </main>
+    <Page className="pt-24">
+      <div class="flex flex-col items-center">
+        <h1 class="text-4xl px-4 mb-4">Table of contents</h1>
+        <ol className="list-decimal px-8 text-2xl">
+          {posts.map((post) => (
+            <li key={post.id}>
+              <PostCard post={post} />
+            </li>
+          ))}
+        </ol>
+      </div>
+      <div class="mt-32 text-2xl w-full text-center">
+        <a href="/">Go back</a>
+      </div>
+    </Page>
   );
 }
 
@@ -28,7 +33,7 @@ function PostCard(props: { post: Post }) {
   const { post } = props;
 
   return (
-    <a class="block text-gray-900 hover:text-orange-500" href={`rules/${post.slug}`}>
+    <a class="block hover:text-gray-50" href={`rules/${post.slug}`}>
       <h3 class="text-2xl pt-2">
         {post.title}
       </h3>
