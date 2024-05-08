@@ -8,7 +8,7 @@ interface PageProps {
 export function Page(props: PageProps) {
   return (
     <div
-      class={`flex flex-col max-w-screen-lg min-h-screen mx-auto px-6 sm:px-12 ${props.className}`}
+      class={`flex flex-col max-w-screen-lg mx-auto px-6 sm:px-12 ${props.className}`}
     >
       {props.children}
       <Footer></Footer>
@@ -83,7 +83,7 @@ export function DictionaryEntry(props: DictionaryEntryProps) {
 
 export function Navigation(props: JSX.HTMLAttributes<HTMLAnchorElement>) {
   return (
-    <div class="mt-32 text-2xl text-center">
+    <div class="mt-32 mb-16 text-xl text-center">
       <a class="underline text-gray-300 hover:text-current" {...props}></a>
     </div>
   );
