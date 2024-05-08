@@ -2,7 +2,7 @@ import { Handlers, PageProps } from "$fresh/server.ts";
 import { Head } from "$fresh/runtime.ts";
 import { getPost, Post } from "@/utils/posts.ts";
 import { CSS, render } from "$gfm";
-import { Navigation, Page, Anchor } from "@/components/Typography.tsx";
+import { Anchor, Navigation, Page } from "@/components/Typography.tsx";
 export const handler: Handlers<Post> = {
   async GET(_req, ctx) {
     try {
@@ -23,9 +23,9 @@ export default function PostPage(props: PageProps<Post>) {
         <style dangerouslySetInnerHTML={{ __html: CSS }} />
       </Head>
       <Page className="pt-16">
-        <h1 class="my-headline text-5xl font-bold text-gray-300">
+        <h1 class="my-headline text-4xl font-bold text-gray-300">
           <Anchor></Anchor>
-            {post.title}
+          {post.title}
         </h1>
         <div
           class="mt-8 markdown-body"

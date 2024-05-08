@@ -1,5 +1,10 @@
 import { useEffect, useRef } from "preact/hooks";
-import { DictionaryEntry, Page, Navigation } from "@/components/Typography.tsx";
+import {
+  DictionaryEntry,
+  Navigation,
+  Page,
+  Thumbnail,
+} from "@/components/Typography.tsx";
 
 export default function PageThumbnail() {
   const triggerRef = useRef(null);
@@ -13,18 +18,11 @@ export default function PageThumbnail() {
   };
 
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (
-          entry.isIntersecting && leftSideRef.current &&
-          bottomLeftSideRef.current
-        ) {
-          leftSideRef.current.classList.add("animate");
-          bottomLeftSideRef.current.classList.add("animate");
-        }
-      },
-      options,
-    );
+    const observer = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting) {
+        animateSide();
+      }
+    }, options);
 
     if (triggerRef.current) {
       observer.observe(triggerRef.current);
@@ -34,7 +32,7 @@ export default function PageThumbnail() {
     };
   }, []);
 
-  const handleClick = () => {
+  const animateSide = () => {
     if (leftSideRef.current && bottomLeftSideRef.current) {
       leftSideRef.current.classList.add("animate");
       bottomLeftSideRef.current.classList.add("animate");
@@ -43,47 +41,36 @@ export default function PageThumbnail() {
 
   return (
     <div>
-      <div ref={leftSideRef} id="left-side" class="side" onClick={handleClick}>
-        <h1 class="title">
-          <span>Sanguine</span>
-          <span class="fancy block">Oasis</span>
-        </h1>
-      </div>
-      <div id="right-side" class="side">
-        <h1 class="title">
-          <span>Sanguine</span>
-          <span class="fancy block">Oasis</span>
-        </h1>
+      <div ref={leftSideRef} id="left-side" class="side" onClick={animateSide}>
+        <Thumbnail />
       </div>
       <span ref={triggerRef} class="absolute top-[100vh] p-1"></span>
-      <div class="absolute w-full">
+      <div class="relative">
+        <Thumbnail />
         <Page className="content">
-          <div>
-            <DictionaryEntry
-              word={"sanguine"}
-              pronounciation={"/ˈsæŋɡwɪn/"}
-              type={"adjective"}
-              definition={"marked by eager hopefulness : confidently optimistic; having the color of blood"}
-            >
-            </DictionaryEntry>
-          </div>
-          <div class="mt-16">
-            <DictionaryEntry
-              word={"oasis"}
-              pronounciation={"/əʊˈeɪ.sɪs/"}
-              type={"noun"}
-              definition={"a fertile or green area in an arid region; something that provides refuge, relief, or pleasant contrast"}
-            >
-            </DictionaryEntry>
-          </div>
-          <Navigation href="/rules">Check the rules</Navigation>
-          <div
-            ref={bottomLeftSideRef}
-            id="bottom-left-side"
-            onClick={handleClick}
+          <DictionaryEntry
+            word={"sanguine"}
+            pronounciation={"/ˈsæŋɡwɪn/"}
+            type={"adjective"}
+            definition={"marked by eager hopefulness : confidently optimistic; having the color of blood"}
           >
-          </div>
+          </DictionaryEntry>
+          <DictionaryEntry
+            className="mt-16"
+            word={"oasis"}
+            pronounciation={"/əʊˈeɪ.sɪs/"}
+            type={"noun"}
+            definition={"a fertile or green area in an arid region; something that provides refuge, relief, or pleasant contrast"}
+          >
+          </DictionaryEntry>
+          <Navigation href="/rules">Check the rules</Navigation>
         </Page>
+        <div
+          ref={bottomLeftSideRef}
+          id="bottom-left-side"
+          onClick={animateSide}
+        >
+        </div>
       </div>
     </div>
   );

@@ -1,17 +1,16 @@
+@import 'markdown.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
   --dark: #1f2328;
-  --red: rgb(186, 52, 52);
+  --light: #d1d5db;
+  --red: rgb(186, 52, 52); /* #ba3434 */
 
   --left-color: var(--dark);
   --right-color: var(--red);
-}
-
-.text-dark {
-  color: var(--dark);
 }
 
 body {
@@ -21,32 +20,7 @@ body {
   margin: 0px;
 }
 
-.markdown-body {
-  background-color: var(--red) !important;
-}
-
-.markdown-body h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  border-color: var(--dark) !important;
-}
-
-.markdown-body table {
-  margin-inline: auto;
-}
-
-.markdown-body table tr,
-th,
-td {
-  background-color: unset !important;
-  border-color: var(--dark) !important;
-}
-
 .side {
-  padding-block-start: 25vh;
   height: 100vh;
   overflow: hidden;
   position: absolute;
@@ -56,15 +30,25 @@ td {
 .title {
   font-weight: 800;
 }
-.side .title {
-  font-size: calc(2rem + 5vw);
-  margin-inline: calc(50vw - 4ch);
-}
 
 .fancy {
   font-family: 'Charm', cursive;
   font-weight: 700;
   font-style: normal;
+  font-size: 1.8em;
+}
+
+.thumbnail .title {
+  padding-block-start: 25vh;
+  padding-block-end: calc(25vh + 5vw);
+  font-size: calc(2rem + 5vw);
+  margin-inline: calc(50vw - 4ch);
+  color: var(--light);
+}
+
+.thumbnail .fancy {
+  line-height: 0.5em;
+  color: var(--dark);
 }
 
 .logo .title {
@@ -75,11 +59,6 @@ td {
   transform: rotate(12deg);
 }
 
-.side .fancy {
-  font-size: 1.8em;
-  line-height: 0.5em;
-}
-
 #left-side {
   background-color: var(--left-color);
   width: 100%;
@@ -87,13 +66,22 @@ td {
   padding-block-end: 135vh;
 }
 
+#left-side .title {
+  color: var(--right-color);
+}
+
+#left-side .fancy {
+  color: var(--light);
+}
+
 #bottom-left-side {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 30vh;
+  height: 100vh;
   background-color: var(--dark);
+  z-index: 1;
 }
 
 #left-side.animate,
@@ -102,36 +90,11 @@ td {
   transition: all 2s cubic-bezier(0.17, 0.84, 0.44, 1);
 }
 
-#left-side .title {
-  color: var(--right-color);
+.content {
+  padding-inline: 3rem;
 }
 
-#left-side .fancy {
-  color: #d1d5db;
-}
-
-#right-side {
-  background-color: var(--right-color);
-}
-
-#right-side .title {
-  color: #d1d5db;
-}
-
-#right-side .fancy {
-  color: var(--dark);
-}
-
-@keyframes animateHeight {
-  from {
-    height: 30vh;
-  }
-  to {
-    height: 0;
-  }
-}
-
-.footer-line {
+.footer-separator {
   top: 4rem;
   left: 50%;
   width: 100vw;
@@ -141,10 +104,7 @@ td {
   background-color: var(--dark);
 }
 
-.content {
-  padding-inline: 3rem;
-  margin-block-start: calc(150px + 40vh + 15vw);
-}
+/* MAIN HEADLINE ANCHOR */
 
 .my-anchor {
   float: left;

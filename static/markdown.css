@@ -1,0 +1,25 @@
+/* MARKDOWN CSS MODIFICATIONS */
+
+.markdown-body {
+  background-color: var(--red) !important;
+}
+
+.markdown-body h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  border-color: var(--dark) !important;
+}
+
+.markdown-body table {
+  margin-inline: auto;
+}
+
+.markdown-body table tr,
+th,
+td {
+  background-color: unset !important;
+  border-color: var(--dark) !important;
+}

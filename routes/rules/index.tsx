@@ -16,13 +16,11 @@ export default function BlogIndexPage(props: PageProps<Post[]>) {
       <div class="logo">
         <h1 class="title text-5xl">
           <span class="text-left">Sanguine</span>
-          <span class="text-right fancy block text-gray-300 text-[1.8em]">
-            Oasis
-          </span>
+          <span class="text-right fancy block text-gray-300">Oasis</span>
         </h1>
       </div>
       <div class="flex flex-col items-center pt-12">
-        <h2 class="text-4xl mb-4">Table of contents</h2>
+        <h2 class="text-4xl mb-4 font-bold">Table of contents</h2>
         <ol className="list-decimal text-2xl">
           {posts.map((post) => (
             <li key={post.id}>
@@ -41,9 +39,7 @@ function PostCard(props: { post: Post }) {
 
   return (
     <a class="block hover:text-gray-300" href={`rules/${post.slug}`}>
-      <h3 class="text-2xl pt-2">
-        {post.title}
-      </h3>
+      <h3 class="text-2xl pt-2">{post.title}</h3>
     </a>
   );
 }

@@ -16,10 +16,21 @@ export function Page(props: PageProps) {
   );
 }
 
+export function Thumbnail() {
+  return (
+    <div class="thumbnail">
+      <h1 class="title">
+        <span>Sanguine</span>
+        <span class="fancy block">Oasis</span>
+      </h1>
+    </div>
+  );
+}
+
 export function Footer() {
   return (
     <div class="text-center mt-auto pt-20 relative">
-      <span class="footer-line"></span>
+      <span class="footer-separator"></span>
       <div class="flex justify-center gap-8 pb-4">
         <a
           href="https://github.com/umfy/sanguine-oasis"
@@ -27,7 +38,9 @@ export function Footer() {
         >
           Source
         </a>
-        <a href="/license" class="hover:text-gray-300">License</a>
+        <a href="/license" class="hover:text-gray-300">
+          License
+        </a>
       </div>
     </div>
   );
@@ -38,16 +51,17 @@ type DictionaryEntryProps = {
   type: string;
   pronounciation: string;
   definition: string;
+  className?: string;
 };
 
 export function DictionaryEntry(props: DictionaryEntryProps) {
   return (
-    <div>
+    <div class={props.className}>
       <div class="grid grid-cols-3 sm:grid-cols-4">
         <section>
           <div class="inline-block">
             <div class="flex flex-col items-center">
-              <h2 class="text-4xl">{props.word}</h2>
+              <h2 class="text-4xl font-bold">{props.word}</h2>
               <p class="pt-2 text-2xl whitespace-nowrap">
                 {props.pronounciation}
               </p>
@@ -69,20 +83,15 @@ export function DictionaryEntry(props: DictionaryEntryProps) {
 
 export function Navigation(props: JSX.HTMLAttributes<HTMLAnchorElement>) {
   return (
-    <div class="underline mt-32 text-2xl w-full text-center text-gray-300 hover:text-current">
-      <a {...props}></a>
+    <div class="mt-32 text-2xl text-center">
+      <a class="underline text-gray-300 hover:text-current" {...props}></a>
     </div>
   );
 }
 
 export function Anchor() {
   return (
-    <a
-      class="my-anchor"
-      aria-hidden="true"
-      tabindex={-1}
-      href="#"
-    >
+    <a class="my-anchor" aria-hidden="true" tabindex={-1} href="#">
       <svg
         class="octicon octicon-link"
         viewBox="0 0 16 16"
