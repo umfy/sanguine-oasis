@@ -40,7 +40,7 @@ function PostCard(props: { post: Post }) {
   const { post } = props;
 
   return (
-    <a class="block hover:text-gray-50" href={`rules/${post.slug}`}>
+    <a class="block hover:text-gray-300" href={`rules/${post.slug}`}>
       <h3 class="text-2xl pt-2">
         {post.title}
       </h3>

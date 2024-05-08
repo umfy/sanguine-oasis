@@ -23,11 +23,11 @@ export function Footer() {
       <div class="flex justify-center gap-8 pb-4">
         <a
           href="https://github.com/umfy/sanguine-oasis"
-          class="hover:text-gray-50"
+          class="hover:text-gray-300"
         >
           Source
         </a>
-        <a href="/license" class="hover:text-gray-50">License</a>
+        <a href="/license" class="hover:text-gray-300">License</a>
       </div>
     </div>
   );
@@ -55,7 +55,7 @@ export function DictionaryEntry(props: DictionaryEntryProps) {
           </div>
         </section>
         <section class="col-span-3">
-          <p class="pt-8 px-2 sm:pl-8 sm:pt-2 text-lg">
+          <p class="pt-8 px-2 sm:pl-10 sm:pt-2 text-lg">
             <span class="ml-[-1rem] mr-[1rem] pl-4 hidden sm:inline-block">
               —
             </span>
@@ -69,7 +69,7 @@ export function DictionaryEntry(props: DictionaryEntryProps) {
 
 export function Navigation(props: JSX.HTMLAttributes<HTMLAnchorElement>) {
   return (
-    <div class="underline mt-32 text-2xl w-full text-center hover:text-gray-50">
+    <div class="underline mt-32 text-2xl w-full text-center text-gray-300 hover:text-current">
       <a {...props}></a>
     </div>
   );
