@@ -8,7 +8,7 @@ interface PageProps {
 export function Page(props: PageProps) {
   return (
     <div
-      class={`flex flex-col max-w-screen-lg mx-auto px-6 sm:px-12 ${props.className}`}
+      class={`flex flex-col max-w-screen-lg min-h-screen mx-auto px-6 sm:px-12 ${props.className}`}
     >
       {props.children}
       <Footer></Footer>
