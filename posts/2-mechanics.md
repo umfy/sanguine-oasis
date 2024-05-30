@@ -23,7 +23,7 @@ The roll is a failure if at least one die shows 1.
 
 ### Critical Rolls
 #### Critical Success
-The critical success happens when two successful dice show the same number or there are three or more successes in a roll.
+The critical success happens when two successful dice show the same number or there are more successes than the dice invovled in a roll.
 
 Critical rolls are rare. When resolving consequences of critical success, be encouraged to bend the baic rules of the game. With GM's help describe a cinematic moment, slay enemies with one point-blank shot, jump over the canyon with a somersault.
 

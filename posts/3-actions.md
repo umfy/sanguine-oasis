@@ -37,23 +37,42 @@ Example actions:
 
 
 ## Resolving success in battle
+To perform an action pick an effect from the possible effects and roll the dice. 
+You need at least one success from the dice roll to perform the task. 
 
-Each point of the Score can be used for a different effect from the table below. In one roll, effects must be unique, unless written with an extension ( -> ). It means spending more points on that particular effect increase it's power.
+The additional effects can be invoked by using the HP.
+
+In single roll all effects must be unique unless written with an extension ( -> ). 
+It means spending more points on that particular effect will increase it's power.
+
+### Fighting success
+You can use up to 1 HP in one test. This represents the physical exaustion gained by performing complicated manouver.
+Additional succeses allow you to take more effects after the roll is made.
 
 - highest die damage
-- lowest die damage -> x2
+- lowest die damage -> 2 * lowest die damage
+- [D6, D6] DoT (over 2 turns)
+- AoE
+- charge / range up
+- manouver -> no save roll manouver
+- push 3m -> 6m
+- aimed hit
+
+### Magic success
+You can use up to 2 HP in one test. This represents life energy drained by the power of the spell.
+After the cost of a spell is established, the additional successes don't allow for more effects.
+
+- highest die damage
+- lowest die damage -> 2 * lowest die damage
 - [D6, D6] DoT (over 2 turns)
 - AoE
 - range up
-- buff
-- debuff
-- push 3m -> 6m
 - debuff -> no save roll debuff
+- push 3m -> 6m
 - aimed hit
-- heal instead of dealing damage *
-- focus -> 6 rounds *
-
-\* - applies to magic only
+- buff
+- heal instead of dealing damage (can't use highest damage die)
+- focus -> 6 rounds 
 
 ### Weapon actions
 
