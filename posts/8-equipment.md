@@ -7,13 +7,14 @@ snippet: details
 
 ## Weapons
 
-D4 - crude D6 - average D8 - good D10 - great D12 - masterwork
-
-Some weapons have low quality dice but deal 3 damage with their savage attacks.
+Weapons deal different bonus damage on successful attack.
+Other narrative aspects of weapons are their reach, weight or ability to conceal it.
 
 ## Armor
 
-D4 - naked D6 - clothing D8 - leather D10 - chainmail D12 - full plate
-
+The armor is defined by it's bonus to defense roll.
 Some heavy armors allow player to get one more wound before dying - the armor
 gets destroyed instead of player taking a pernament consequence.
+
+### Shields
+Shields allow to reroll die roll of 1 but if the rerolled value is 1 again, the shield breaks.

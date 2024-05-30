@@ -7,7 +7,7 @@ snippet: details
 
 ## Sample monsters
 
-| HP | NAME |
+| HD | NAME |
 |----|------|
 | 1  | Bat, Rat |
 | 2  | Badger, Dog |
@@ -24,8 +24,6 @@ snippet: details
 
 ## Enemies' defense
 
-The defense of a creature depends on their armor or thick skin. Usually the
-defnse for humanoids is D8 + D6 which corresponds to 13 AC in other games. To
-convert from AC, the Dice Size is AC - 12.
-
-[AC conversion table] 12 -> D6 + D6 13 -> D8 + D6 14 -> D10 + D6
+The defense of a creature depends on their armor or thick skin. 
+Usually the bonus defense of humanoids is 3. 
+To convert from AC, the defense bonus is AC - 10.

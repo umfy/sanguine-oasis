@@ -6,7 +6,8 @@ snippet: details
 ---
 
 Spells are categorized in domains of complimentary elements. A mage usually
-specializes in just one of the domains.
+specializes in just one of the domains and knows all of the domain spells. 
+Other spells can be accessed by using some magic items.
 
 ## Fire & Light
 
@@ -14,7 +15,7 @@ specializes in just one of the domains.
 
 Make an item glow with a bright light.
 
-#### Ignite (3dmg, DoT)
+#### Ignite (touch, lower die damage, [D6, D6] DoT)
 
 Touch the target to damage it and set it on fire.
 
@@ -29,7 +30,7 @@ be active at the time.
 The target is surrounded by cold blue flames that make it easier to hit and
 prevents it from hiding.
 
-#### Fire bulwark (focus, -1 dmg fire and cold)
+#### Fire bulwark (focus, -5dmg fire and cold)
 
 Gentle white flames surround you giving you protection from warmth and cold.
 
@@ -40,7 +41,7 @@ Gentle white flames surround you giving you protection from warmth and cold.
 The temperature in front of you dramatically drops and all liquids, including
 potions freeze instantly.
 
-#### Lash (touch, 1dmg, AoE)
+#### Water Lash (touch, lower die damage, AoE)
 
 Unleash a wide elemental attack around you.
 
@@ -63,7 +64,7 @@ it's max HP. When the damage is higher the target shatters into pieces.
 
 Wind in the area starts moderately blowing in a direction of your choice.
 
-#### Thunderbolt (3dmg)
+#### Thunderbolt (touch, higher die damage, lower die damage)
 
 Lightning strikes a target.
 
@@ -86,7 +87,7 @@ A sphere of vacuum appears. There is no air nor sound in it.
 
 Shape stone like clay or command plants around you to grow as you wish.
 
-#### Bind (touch, 1dmg, debuff)
+#### Bind (touch, lower die damage, debuff)
 
 The force of nature restricts movement of the target.
 
@@ -94,7 +95,7 @@ The force of nature restricts movement of the target.
 
 The nature forces all tagrets to be dragged towards the center of the spell
 
-#### Stone Armor (focus, -1dmg physical)
+#### Stone Armor (focus, -5dmg physical)
 
 Your skin becomes as hard as stone reducing all damage taken from weapon
 attacks.
