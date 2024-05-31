@@ -7,12 +7,12 @@ snippet: details
 
 ## Action economy
 
-Round - short amount of time in battle, about 10 seconds.
+**Round** - short amount of time in battle, about 10 seconds.
 When the wording "for one round" is used, it means from now to the end of your next turn.
 
-Turn - a section of a round in which one character acts.
+**Turn** - a section of a round in which one character acts.
 
-Action - something a character can do in a round.
+**Action** - something a character can do in a round.
 
 The Round is divided in two phases:
 
@@ -40,14 +40,15 @@ Example actions:
 To perform an action pick an effect from the possible effects and roll the dice. 
 You need at least one success from the dice roll to perform the task. 
 
-The additional effects can be invoked by using the HP.
-
-In single roll all effects must be unique unless written with an extension ( -> ). 
+In a single roll all effects must be unique unless written with an extension ( -> ). 
 It means spending more points on that particular effect will increase it's power.
 
 ### Fighting success
-You can use up to 1 HP in one test. This represents the physical exaustion gained by performing complicated manouver.
+You empower your attack by spending 1 HP before the roll. 
+This represents the physical exaustion caused by performing complicated manouver.
 Additional succeses allow you to take more effects after the roll is made.
+
+Add the weapon damage to the successful attack roll.
 
 - highest die damage
 - lowest die damage -> 2 * lowest die damage
@@ -59,8 +60,12 @@ Additional succeses allow you to take more effects after the roll is made.
 - aimed hit
 
 ### Magic success
-You can use up to 2 HP in one test. This represents life energy drained by the power of the spell.
-After the cost of a spell is established, the additional successes don't allow for more effects.
+Each effect beyond first requires you to spend 1 HP. 
+That increases level of the spell by 1, up to the maximum of 2.
+This represents life energy drained by the power of the spell.
+After the cost of a spell is established, the additional successes allow for more effects.
+
+Every spell has medium range by default.
 
 - highest die damage
 - lowest die damage -> 2 * lowest die damage
@@ -71,22 +76,8 @@ After the cost of a spell is established, the additional successes don't allow f
 - push 3m -> 6m
 - aimed hit
 - buff
-- heal instead of dealing damage (can't use highest damage die)
+- heal instead of dealing damage (can only use lowest damage die)
 - focus -> 6 rounds 
-
-### Weapon actions
-
-When fighting with weapons, you can declare how you use your additional successes after the
-roll. Add the weapon damage to the successful attack roll.
-
-### Spell actions
-
-When casting a spell you have to declare the full effect before the roll. 
-Each effect beyond first requires you to spend 1 MP. 
-That increases level of the spell by 1, up to the maximum of 2.
-
-Every spell has medium range by default.
-Add the weapon damage to the successful attack roll.
 
 #### Examples:
 

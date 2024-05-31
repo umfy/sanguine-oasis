@@ -14,24 +14,24 @@ You have 3D6 HP. When damaged, subtract the damage dealt from your current HP.
 
 The spells can be empowered by using HP.
 HP lost this way can only be restored though natural healing processes.
-The amount of HP used this way is called Magic Burn.
+The amount of HP used this way is called Exhaustion Points (EP).
 
 #### Tracking HP in game
 To keep track of the damage used on spells keep 2 HP trackers on the table.
 The HP tracker is initially set on your max HP and goes down when you are damaged.
-The Magic Burn tracker is initially set to 1 and goes up when you use HP to cast spells.
-You start dying when HP tracker is lower than Magic Burn tracker.
+The EP tracker is initially set to 1 and goes up when you use HP to cast spells.
+You start dying when HP tracker is lower than EP tracker.
 
 ## Dying
 
 Each player character can aquire up to 3 wounds. Gaining more wounds kills the character.
-When HP becomes lower than Magic Burn, you gain 1 wound and start Dying. 
+When HP becomes lower than EP, you gain 1 wound and start Dying. 
 While Dying add 1 wound point at the end of your turn.
 When absolute HP would become less than 1, you gain 1 wound point and set HP to 1 instead.
 
 When Dying, player can act normally or roll Survival to stop Dying. Another player can aid Dying character, which guarantees success on their next Dying roll.
 
-Circumstances that restore HP above Spell Burn, also stop character from Dying.
+Circumstances that restore HP above EP, also stop character from Dying.
 
 Consequences apply at the moment of getting a wound:
 
