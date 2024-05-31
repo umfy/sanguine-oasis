@@ -1,7 +1,7 @@
 ---
 id: 5
 title: Life and Death
-updated: 6.05.2024
+updated: 1.06.2024
 snippet: details
 ---
 
@@ -29,7 +29,7 @@ When HP becomes lower than EP, you gain 1 wound and start Dying.
 While Dying add 1 wound point at the end of your turn.
 When absolute HP would become less than 1, you gain 1 wound point and set HP to 1 instead.
 
-When Dying, player can act normally or roll Survival to stop Dying. Another player can aid Dying character, which guarantees success on their next Dying roll.
+When Dying, player can act normally or roll Survival to stop Dying. Another player can aid Dying character, which gives Help on their next Dying roll.
 
 Circumstances that restore HP above EP, also stop character from Dying.
 

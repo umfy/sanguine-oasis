@@ -1,7 +1,7 @@
 ---
 id: 8
 title: Equipment
-updated: 6.05.2024
+updated: 1.06.2024
 snippet: details
 ---
 

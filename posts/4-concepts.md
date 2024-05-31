@@ -1,15 +1,17 @@
 ---
 id: 4
 title: Basic concepts
-updated: 6.05.2024
+updated: 1.06.2024
 snippet: details
 ---
 
-## Offense
+### Helping
+A character can help another character to perform a task. 
+The helping player gives another player their Skill Die which then is used instead of the Base Die.  
+
 ### Aimed hit
 
-You hit a specific desired point, a bullseye. It often causes a debuff for the
-target.
+You hit a specific desired point, a bullseye. It often causes a debuff or bonus damage to the target.
 
 ### Damage over time
 
@@ -44,7 +46,6 @@ the target makes successful Endurance roll.
 The effects may vary based on the description, for example disarming means the
 target has to spend one Action to pick the weapon up (if it's still there).
 
-## Defense
 ### Focus
 
 When focusing on a spell you keep active as long as you don't cast another
