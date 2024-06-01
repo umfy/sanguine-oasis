@@ -27,5 +27,5 @@ One Hit Die is D6.
 ## Enemies' defense
 
 The defense of a creature depends on their armor or thick skin. 
-Usually the bonus defense of humanoids is 3. 
-To convert from AC, the defense bonus is AC - 10.
+Usually the bonus defense of humanoids in clothing is 1. 
+To convert from AC, the defense bonus is AC - 12.

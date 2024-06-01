@@ -8,8 +8,17 @@ snippet: details
 ## Offense
 ### Weapons
 
-Weapons deal bonus damage on successful attack.
-Other narrative aspects of weapons are their reach, weight or ability to conceal it.
+Weapons differ from each other by narrative aspects like their reach, weight or ability to conceal it.
+
+Many weapons have feats assigned to them.
+
+- reach
+- heavy
+- light
+- balanced
+- serrated (+1 turn bleeding)
+- small
+- large
 
 ## Magical instruments
 
@@ -20,6 +29,14 @@ This allows a caster to cast these spells without knowing the specific elemental
 ### Armor
 
 The armor gives bonus to defense roll.
+
+0 - naked 
+1 - clothing 
+2 - leather 
+3 - chainmail 
+4 - full plate
+
+1 - any protective helmet or custom defensive piece
 
 Heavy armor imposes disadvantage to some checks like agility or stealth.
 
