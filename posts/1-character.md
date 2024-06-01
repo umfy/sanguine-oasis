@@ -42,13 +42,14 @@ If they were a fisherman they know how to tie knots and sail pretty well.
 
 ## Skills
 
-Players' skills in the game cannot be higher than D12.
+Players' skills in the game can vary between D4 and D12.
+The default value is D6.
 
 ### Non-combat skills
 
 - strength - force and capacity 
 - endurance - physical defence and resistance to debuffs
-- agility - flexibility and dodging
+- agility - flexibility and speed
 - stealth - sneaking, stealing
 - willpower - mental defense, morale
 - perception - senses and reflexes
@@ -59,4 +60,4 @@ Players' skills in the game cannot be higher than D12.
 
 - hand to hand combat - the offensive and defensive capability of a character
 - distance figthing - the accuracy from range, marksmanship
-- magic casting - used to conjure spells
+- magic casting - ability to conjure spells

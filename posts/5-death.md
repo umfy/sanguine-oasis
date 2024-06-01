@@ -48,9 +48,14 @@ roll or even impossible to perform.
 
 The time in the game is divided into 6 hour watches. On a rest that takes one
 watch, restore HP by total value of dice on your survival roll. Also heal a minor condition. 
+
 With enough medial attention, character can remove major consequence from wounds tracker and
 instead write down the effect of it in the character details. For example remove
 "broken arm" and add character desription "immobilized arm" instead. This frees
 up the wound slot for another condition.
 
-[add character wound table and next to it recovery table or sth]
+| wound     | consequence                    | partial healing time | full recovery tume |
+|-----------|--------------------------------|----------------------|--------------------|
+| minor     | bumps, knocks and bruises      | -                    | one watch rest     |
+| major     | strong bleedings, broken bones | one watch rest       | weeks              |
+| permanent | limb cut off, pierced organ    | weeks                | -                  |

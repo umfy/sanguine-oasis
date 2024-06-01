@@ -7,6 +7,8 @@ snippet: details
 
 ## Sample monsters
 
+One Hit Die is D6.
+
 | HD | NAME |
 |----|------|
 | 1  | Bat, Rat |
