@@ -1,7 +1,7 @@
 ---
 id: 6
 title: Spells
-updated: 1.06.2024
+updated: 2.06.2024
 snippet: details
 ---
 
@@ -30,7 +30,7 @@ be active at the time.
 The target is surrounded by cold blue flames that make it easier to hit and
 prevents it from hiding.
 
-#### Fire bulwark (focus, -5dmg fire and cold)
+#### Fire bulwark (focus, +2 elemental damage armor)
 
 Gentle white flames surround you giving you protection from warmth and cold.
 
@@ -95,18 +95,17 @@ The force of nature restricts movement of the target.
 
 The nature forces all tagrets to be dragged towards the center of the spell
 
-#### Stone Armor (focus, -5dmg physical)
+#### Stone Armor (focus, +1 armour)
 
-Your skin becomes as hard as stone reducing all damage taken from weapon
-attacks.
+Your skin becomes as hard as stone reducing all damage taken from attacks.
 
 #### Inner Animal (6hr)
 
 Gain animal trait or become the animal.
 
-0. Gain trait - ears, paws etc
-1. Become small or medium animal - rat or wolf
-2. Become large animal - bear or cow
+1. Gain trait - ears, paws etc
+2. Become small or medium animal - rat or wolf
+3. Become large animal - bear or cow
 
 ## Arcane & Time
 
@@ -116,17 +115,17 @@ Summon up to a medium-sized illusion in the area. You can command it by spending
 an Action. When it attacks it deals 1 weapon dmg and uses your spell-casting
 stat to hit.
 
-0. Stationary and harmless
-1. Can attack or move
-2. Can attack and move
+1. Stationary and harmless
+2. Can attack or move
+3. Can attack and move
 
 ### Disguise (touch, 6hr)
 
 The target changes it's apprarance.
 
-0. Appearance of clothing
-1. Change size and sound the target makes
-2. Give invisibility
+1. Appearance of clothing
+2. Change size and sound the target makes
+3. Give invisibility
 
 ### Slow down time (6 rounds)
 
@@ -138,9 +137,9 @@ Accelerate target. It can take two Actions on short turn and move further.
 
 ### Time travel
 
-0. Teleport to where you have been in the previous round.
-1. Target disappears from reality and appears next round in the same place.
-2. An identical copy of you from the future appears for 2 rounds. You share all
+1. Teleport to where you have been in the previous round.
+2. Target disappears from reality and appears next round in the same place.
+3. An identical copy of you from the future appears for 2 rounds. You share all
    resources and status effects. When the spell ends, you and your copy
    disappear for 2 rounds. You appear again in the same place.
 
@@ -158,9 +157,9 @@ Instantly swap places with the target.
 
 Create a portal between two places in medium range.
 
-0. 30cm diameter
-1. 1,5m
-2. 6m
+1. 30cm diameter
+2. 1,5m
+3. 6m
 
 ### Darkness (AoE, 6 rounds, debuff)
 
@@ -170,6 +169,15 @@ Conjure a cloud of pure darkness, targets inside are blinded.
 
 Turn a corpse into obedient undead. You can command it using an Action.
 
-0. small undead
-1. medium undead
-2. large undead
+1. small undead
+2. medium undead
+3. large undead
+
+
+## War
+### safe strike (lower die damage)
+Enemy cannot strike back after your melee.
+### open wound
+### Wide slash (AoE)
+### charge
+### aimed hit

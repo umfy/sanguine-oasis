@@ -33,65 +33,74 @@ Example actions:
 - spell cast
 - skill check
 - move
+- use an item
 - reload
 
+## Rolling aganist active opposition
+When both sides of the conflict can use their skills to change the outcome of the situation, the larger level of success wins. On a draw, compare numbers on the higher dice. If it's still a draw, something unexpected happens that changes the situation completely.
 
-## Resolving success in battle
-To perform an action pick an effect from the possible effects and roll the dice. 
-You need at least one success from the dice roll to perform the task. 
-At least one effect must be described before the roll, the details can be settled later.
-
-In a single roll all effects must be unique unless written with an extension ( -> ). 
-It means spending more points on that particular effect will increase it's power.
-
+#### Examples:
+Player hiding from the guards roll for Stealth ([D6,D8] -> [1,6]), one of the guards roll for Perception ([D6,D10] -> [3,8]). Both sides get a success but the guard wins the conflict (because 8 > 6).
 ### Fighting success
-You empower your attack by spending 1 HP before the roll. 
+You can empower your attack by spending 2 HP before the roll. 
 This represents the physical exaustion caused by performing complicated manouver.
-Additional succeses allow you to take more effects after the roll is made.
+Additional success from critical hit allow you to take one more effect after the roll is made.
 
-- highest die damage
-- lowest die damage
-- [D6, D6] DoT (over 2 turns)
+- higher die damage
+- lower die damage
+- DoT ([D6], [D6] over 2 turns)
 - AoE
 - charge / range up
-- manouver -> no save roll manouver
+- manouver
 - push 3m -> 6m
 - aimed hit
 
-### Magic success
-Each effect beyond first requires you to spend 1 HP. 
-That increases level of the spell by 1, up to the maximum of 2.
-This represents life energy drained by the power of the spell.
-After the cost of a spell is established, the additional successes allow for more effects.
+#### Melee combat
+Winner deals higher die damage to the opponent. If the defender doesn't currently hold melee weapon they can only cause unarmed damage. The defender may choose to dodge the attack instead.
 
-Every spell has medium range by default.
+#### Ranged combat
+If attacker wins they deal higher die damage to the opponent. If defender wins they dodge or block.
 
-- highest die damage
-- lowest die damage
-- [D6, D6] DoT (over 2 turns)
+### Casting spells
+If a target is affected by the spell directly, they can oppose it with a skill roll to dodge it.
+
+Using magic requires you to spend HP equal to the spell's power.
+
+| HP cost | Added spell effects |
+|---------|---------------------|
+| 1       | 0                   |
+| 2       | 1                   |
+| 4       | 2                   |
+| 6       | 3                   |
+| 2n      | n                   |
+
+Your life is locked in the spell until it ends.
+
+Every spell has medium range by default. When casting a spell, you decide what unique additional effects shoud the spell have:
+
+- higher die damage
+- lower die damage
+- DoT ([D6], [D6] over 2 turns)
 - AoE
 - range up
-- debuff -> no save roll debuff
+- debuff
 - push 3m -> 6m
 - aimed hit
 - buff
-- heal instead of dealing damage
 - focus -> 6 rounds 
 
 #### Examples:
+Custom spells made from scratch:
+Power 1: Dealing ([D6,D12]-> [3,10]) 10 fire damage from range costs 1HP and requires a successful roll. 
+Power 2: Dealing ([D6,D12]-> [3,10]) 13 fire damage from range costs 2HP and requires a successful roll. 
+Power 2: Dealing ([D6,D12]-> [6,8]) 8 fire damage AoE costs 2HP and requires successful roll.
+Power 3: Dealing ([D6,D12]-> [6,11]) 11 fire dagame AoE that can blind opponents for 1 turn costs 3HP and requires successful roll. 
 
-lvl 0: Dealing ([D6, D12] +1 -> [3, 10]) 11 fire damage from range doesn't have a cost but requires successful roll. 
-lvl 1: Dealing ([D6, D12] +1 -> [6, 8]) 15 fire damage costs 1 MP and requires successful roll.
-lvl 1: Dealing ([D6, D12] +1 -> [6, 8]) 9 fire damage AoE costs 1 MP and requires successful roll.
-lvl 2: Dealing ([D6, D12] +1 -> [6, 11]) 12 fire dagame AoE that can blind opponents for 1 turn costs 2MP and requires successful roll. 
+### Damage reduction
+The damage taken is reduced by target's armour value.
 
-### Defensive action
-When target is about to get hit, he may roll for defense.
-The damage is reduced by the value of lower die + armor defense value, no matter if roll is successful or not.
-On two successes or more the target doesn't take any damage. The hit is parried or is dodged completely.
+#### Example:
+Sword attack of ([D6,D10] -> [2,8] -> 8 dmg) is reduced by Armour 2 dealing 6 dmg.
 
 ### Dodging
-Other skills like Agility can be used defensively if that makes sense. They work like classic Defensive action but don't add armor defense value to the roll. 
-
-If the hit would deal damage, two successes are required to dodge it.
-If the hit doesn't deal damage (more common in environmental hazards and role play), only one success is required to dodge.
+Skills like Agility can be used defensively if that makes sense, usually in environmental hazards and role play, mitigating damage entirely.

@@ -9,13 +9,12 @@ snippet: player's character details etc
 
 When creating a character write down their most important features, as listed below. 
 Those features are not only narrative flavour but they also give advantages during play.
-The player may reroll once if the character's background would help them accomplish a certain task. 
+The player may add Advantage if the character's background would help them accomplish a certain task. 
 You don't have to fill all the aspects at once, they can be discovered later during play.
 
 - name and ancestry
 - origin
-- general looks
-- clothing preferences
+- general looks and style
 - vocation
 - hobby or ex-vocation
 - affiliation to the group
@@ -31,8 +30,7 @@ If they were a fisherman they know how to tie knots and sail pretty well.
 #### Example
 - Aris is human female
 - from noble nomadic family
-- dark-skinned, short tied hair
-- who values style and etiquette
+- dark-skinned, short tied hair, who values style and etiquette
 - in pursuit of adventures she became a mercenary
 - her passion is oriental dance
 - she is a skilled sand mage
@@ -43,7 +41,7 @@ If they were a fisherman they know how to tie knots and sail pretty well.
 ## Skills
 
 Players' skills in the game can vary between D4 and D12.
-The default value is D6.
+The default value is D6, which gives about 30% chance of success.
 
 ### Non-combat skills
 

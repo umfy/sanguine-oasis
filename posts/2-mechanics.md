@@ -11,29 +11,27 @@ When the situation is difficult the GM may demand a roll to test the character's
 skill. In that case the adequate skill die is rolled besides the base roll which
 is always D6.
 
-If the task should be easier because of your background or circumstances, you may reroll one of the dice.
-If the task should be more difficult, add D4 to the roll.
+The roll is successful when at least one die is 6 or more.
 
-|  D6 + | CF   | 0     | 1+    | 1     | 2     | CS    |
-|-------|------|-------|-------|-------|-------|-------|
-| D4    | 4.16 | 80.83 | 25.00 | 25.00 | 0     | 0     |
-| D6    | 2.77 | 52.77 | 44.43 | 33.33 | 5.55  | 5.55  |
-| D8    | 2.80 | 43.75 | 54.16 | 37.50 | 12.50 | 4.16  |
-| D10   | 1.66 | 38.33 | 59.99 | 35.00 | 18.33 | 6.66  |
-| D12   | 1.38 | 34.72 | 63.88 | 29.16 | 23.61 | 11.11 |
+### Advantage
+If the task should be easier because of your background or circumstances, add D6 Base Die and discard lower Base Die.
 
-### Scoring
-
-Add success when value is 5+. Add two successes when the value is 10+. 
-The roll is a failure if at least one die shows 1.
+### Disadvantage
+If task should be more difficult, add D6 Base Die and discard higher Base Die.
 
 ### Critical Rolls
 #### Critical Success
-The critical success happens when two successful dice show the same number or there are 3 or more successes.
+The critical success happens when both dice show success.
 
 Critical rolls are rare. When resolving consequences of critical success, be encouraged to bend the baic rules of the game. With GM's help describe a cinematic moment, slay enemies with one point-blank shot, jump over the canyon with a somersault.
 
 #### Critical Failure
-The critical failure happens when two or more dice show 1.
+The critical failure happens when dice show pairs of [1,1] [2,2] or [3,3].
 
 Critical failures cause your equipment to malfunction or break, your leg to slip and your missiles to hit wrong targets.
+
+#### The twist
+Optionally the situation dramatically changes with a twist when dice show pairs of [4,4] or [5,5].
+
+### Probability
+[table of scores]
