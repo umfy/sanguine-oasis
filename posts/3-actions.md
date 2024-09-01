@@ -41,6 +41,7 @@ When both sides of the conflict can use their skills to change the outcome of th
 
 #### Examples:
 Player hiding from the guards roll for Stealth ([D6,D8] -> [1,6]), one of the guards roll for Perception ([D6,D10] -> [3,8]). Both sides get a success but the guard wins the conflict (because 8 > 6).
+
 ### Fighting success
 You can empower your attack by spending 2 HP before the roll. 
 This represents the physical exaustion caused by performing complicated manouver.
@@ -97,10 +98,10 @@ Power 2: Dealing ([D6,D12]-> [6,8]) 8 fire damage AoE costs 2HP and requires suc
 Power 3: Dealing ([D6,D12]-> [6,11]) 11 fire dagame AoE that can blind opponents for 1 turn costs 3HP and requires successful roll. 
 
 ### Damage reduction
-The damage taken is reduced by target's armour value.
+The damage taken is reduced by target's armor value.
 
 #### Example:
-Sword attack of ([D6,D10] -> [2,8] -> 8 dmg) is reduced by Armour 2 dealing 6 dmg.
+Sword attack of ([D6,D10] -> [2,8] -> 8 dmg) is reduced by armor 2 dealing 6 dmg.
 
 ### Dodging
 Skills like Agility can be used defensively if that makes sense, usually in environmental hazards and role play, mitigating damage entirely.

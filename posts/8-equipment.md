@@ -28,7 +28,7 @@ This allows a caster to cast these spells without knowing the specific elemental
 ## Defense
 ### Armor
 
-The armor gives bonus to defense roll.
+The armor provides the damage mitigation.
 
 0 - naked 
 1 - clothing 
@@ -44,4 +44,4 @@ Some heavy armors allow player to get one more wound before dying - the armor
 gets destroyed instead of player taking a pernament consequence.
 
 ### Shields
-Shields allow to reroll die roll of 1 but if the rerolled value is 1 again, the shield breaks.
+Shields allow to win fighting contests when both sides have the same ammount of success, but they also break in the process.

@@ -95,7 +95,7 @@ The force of nature restricts movement of the target.
 
 The nature forces all tagrets to be dragged towards the center of the spell
 
-#### Stone Armor (focus, +1 armour)
+#### Stone Armor (focus, +1 armor)
 
 Your skin becomes as hard as stone reducing all damage taken from attacks.
 
@@ -172,12 +172,3 @@ Turn a corpse into obedient undead. You can command it using an Action.
 1. small undead
 2. medium undead
 3. large undead
-
-
-## War
-### safe strike (lower die damage)
-Enemy cannot strike back after your melee.
-### open wound
-### Wide slash (AoE)
-### charge
-### aimed hit
