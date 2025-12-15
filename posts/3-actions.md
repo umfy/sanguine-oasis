@@ -1,7 +1,7 @@
 ---
 id: 2
 title: Actions
-updated: 1.06.2024
+updated: 15.12.2024
 snippet: details
 ---
 
@@ -33,19 +33,21 @@ Example actions:
 - spell cast
 - skill check
 - move
+- swap weapon
 - use an item
 - reload
 
 ## Rolling aganist active opposition
 When both sides of the conflict can use their skills to change the outcome of the situation, the larger level of success wins. On a draw, compare numbers on the higher dice. If it's still a draw, something unexpected happens that changes the situation completely.
 
+For Area of Effect opposition, only the most skilled target rolls for all participants.
+
 #### Examples:
 Player hiding from the guards roll for Stealth ([D6,D8] -> [1,6]), one of the guards roll for Perception ([D6,D10] -> [3,8]). Both sides get a success but the guard wins the conflict (because 8 > 6).
 
 ### Fighting success
-You can empower your attack by spending 2 HP before the roll. 
-This represents the physical exaustion caused by performing complicated manouver.
-Additional success from critical hit allow you to take one more effect after the roll is made.
+Each success allows you to take one effect from the list below.
+You can empower your attack by spending 2 HP before the roll to gain additional effect. This represents the physical exaustion caused by performing complicated manouver.
 
 - higher die damage
 - lower die damage
@@ -57,13 +59,17 @@ Additional success from critical hit allow you to take one more effect after the
 - aimed hit
 
 #### Melee combat
-Winner deals higher die damage to the opponent. If the defender doesn't currently hold melee weapon they can only cause unarmed damage. The defender may choose to dodge the attack instead.
+If attacker wins they choose how to spend the fighting success. If defender wins they deal higher die damage to opponent and dodge. If the defender doesn't currently hold melee weapon they can only cause unarmed damage.
 
 #### Ranged combat
-If attacker wins they deal higher die damage to the opponent. If defender wins they dodge or block.
+If attacker wins they choose how to spend the fighting success. If defender wins they dodge or block.
+When Ranged attacks are performed aganist opponents in melee range, the defender can deal higher die damage and dodge like in melee combat.
 
 ### Casting spells
-If a target is affected by the spell directly, they can oppose it with a skill roll to dodge it.
+If a target is affected by the spell aganist their will, they can oppose it with a skill roll to dodge it or if at melee range dodge it and deal higher die damage.
+If there is no active opposition, the spell just works without rolling the dice.
+
+When casting spells you end your turn unarmed.
 
 Using magic requires you to spend HP equal to the spell's power.
 

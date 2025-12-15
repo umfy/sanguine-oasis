@@ -1,7 +1,7 @@
 ---
 id: 8
 title: Equipment
-updated: 1.06.2024
+updated: 15.12.2025
 snippet: details
 ---
 
@@ -16,7 +16,7 @@ Many weapons have feats assigned to them.
 - heavy
 - light
 - balanced
-- serrated (+1 turn bleeding)
+- serrated
 - small
 - large
 

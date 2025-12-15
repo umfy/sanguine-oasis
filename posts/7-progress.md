@@ -1,7 +1,7 @@
 ---
 id: 7
 title: Leveling up
-updated: 1.06.2024
+updated: 16.12.2025
 snippet: details
 ---
 
@@ -14,8 +14,8 @@ in role play or bonus 1 for helping with cleaning the table after the game.
 
 The experinence points can be spent to increase Skill's Dice Size: 
 - D6 -> D8 - 8 points
-- points D8 -> D10 - 10 points
-- points D10 -> D12 - 12 points
+- points D8 -> D10 - 16 points
+- points D10 -> D12 - 24 points
 
 ### Improving Hit Points
 The experience points can be spent to increase HP by 1 point. The cost is equal to the new HP value:

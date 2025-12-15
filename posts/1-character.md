@@ -1,7 +1,7 @@
 ---
 id: 1
 title: Character details
-updated: 1.06.2024
+updated: 15.12.2025
 snippet: player's character details etc
 ---
 
@@ -18,8 +18,7 @@ You don't have to fill all the aspects at once, they can be discovered later dur
 - vocation
 - hobby or ex-vocation
 - affiliation to the group
-- good memory from simpler times
-- bad memory
+- significant loss
 - important person
 
 The memories is what makes a character real, this is what replaces intelligence stat in this game. 
@@ -34,7 +33,6 @@ If they were a fisherman they know how to tie knots and sail pretty well.
 - in pursuit of adventures she became a mercenary
 - her passion is oriental dance
 - she is a skilled sand mage
-- she spent one fantastic summer in a vineyard in her relatives' mansion
 - there was a friend who was kidnapped by savages
 - her magic teacher Illya
 
