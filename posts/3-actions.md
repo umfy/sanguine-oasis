@@ -87,11 +87,8 @@ Using magic requires you to spend HP equal to the spell's power.
 | 0       | 0                   |
 | 1       | 1                   |
 | 2       | 2                   |
-| 3       | 3                   |
 
-Your life is locked in the spell until it ends.
-
-Every spell has medium range by default. When casting a spell, you decide what unique additional effects shoud the spell have:
+Every spell has medium range by default. Weapon damage for spells is always 1. When casting a spell, you decide what unique additional effects shoud the spell have:
 
 - 1 damage + weapon damage (1)
 - 1 damage

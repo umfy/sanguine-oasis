@@ -7,11 +7,7 @@ snippet: details
 
 ## Sample monsters
 
-One Hit Die is 2HP - D6.
-Alternatively 1.5 * HD rounded down.
-The monster can't have less max HP than it's number of HD.
-
-| HD | NAME |
+| HP | NAME |
 |----|------|
 | 1  | Bat, Rat |
 | 2  | Badger, Dog |
@@ -28,5 +24,6 @@ The monster can't have less max HP than it's number of HD.
 
 ## Enemies' defense
 
-The defense of a creature depends on their armor or thick skin. It's simply additional HP.
-To convert from AC, HP bonus is AC - 12.
+The defense of a creature depends on their armor or thick skin. It's simply additional HP + EP.
+When an enemy has it's HP dropped to 1 or below EP they change their tactics, usually by surrendering or fleeing.
+To convert from AC, HP+EP bonus is AC - 12.

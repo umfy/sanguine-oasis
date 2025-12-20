@@ -8,7 +8,7 @@ snippet: details
 ## Stats
 ### Hit points
 
-You have D6 HP. When damaged, subtract the damage dealt from your current HP.
+At the start of the game you have 4HP. When damaged, subtract the damage dealt from your current HP.
 
 ### Exhaustion points
 
@@ -36,7 +36,7 @@ Circumstances that restore HP above EP (or would be able to restore more HP than
 Consequences apply at the moment of getting a wound:
 
 - 1 wound: minor consequence (twisted ankle, bleeding nose)
-- 2 wound: major consequence (broken bone, deep cut)
+- 2 wound: major consequence (broken bone, deep cut, piece of equipment broken)
 - 3 wound: pernament consequence (limb cut off, pierced organ)
 
 ## Wounds

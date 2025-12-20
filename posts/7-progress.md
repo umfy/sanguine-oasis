@@ -20,7 +20,10 @@ The experinence points can be spent to increase Skill's Dice Size:
 
 ### Improving Hit Points
 
-6 experience points can be spent in order to try to increase HP. The player rolls D6 - if the result is higher than current HP, the HP increases by 1.
+6 experience points can be spent in order to try to increase HP. The player rolls Endurance - if the numeric value on the highest die is bigger than max HP, the HP increases by 1.
+
+#### Example
+The player has 4HP. They roll Endurance ([D8,D6] -> [7,1]) rolling 7 which is higher value than current HP. The max HP increases by 1. Next time they will have to beat 5.
 
 ### Gaining character traits
 
