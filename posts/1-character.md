@@ -1,7 +1,7 @@
 ---
 id: 1
 title: Character details
-updated: 15.12.2025
+updated: 20.12.2025
 snippet: player's character details etc
 ---
 

@@ -1,13 +1,15 @@
 ---
 id: 9
 title: Bestiary
-updated: 1.06.2024
+updated: 20.12.2025
 snippet: details
 ---
 
 ## Sample monsters
 
-One Hit Die is D6.
+One Hit Die is 2HP - D6.
+Alternatively 1.5 * HD rounded down.
+The monster can't have less max HP than it's number of HD.
 
 | HD | NAME |
 |----|------|
@@ -26,6 +28,5 @@ One Hit Die is D6.
 
 ## Enemies' defense
 
-The defense of a creature depends on their armor or thick skin. 
-Usually the bonus defense of humanoids in clothing is 1. 
-To convert from AC, the defense bonus is AC - 12.
+The defense of a creature depends on their armor or thick skin. It's simply additional HP.
+To convert from AC, HP bonus is AC - 12.

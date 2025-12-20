@@ -1,37 +1,37 @@
 ---
 id: 5
 title: Life and Death
-updated: 1.06.2024
+updated: 20.12.2025
 snippet: details
 ---
 
 ## Stats
 ### Hit points
 
-You have 3D6 HP. When damaged, subtract the damage dealt from your current HP.
+You have D6 HP. When damaged, subtract the damage dealt from your current HP.
 
-### Using hit points to cast magic
+### Exhaustion points
 
-The spells can be empowered by using HP.
-HP lost this way can only be restored though natural healing processes.
-The amount of HP used this way is called Exhaustion Points (EP).
+The spells and attacks can be empowered by gaining Exhaustion Points.
+Additionally Exhaustion Points can be gained when character is burdened or sick.
 
-#### Tracking HP in game
-To keep track of the damage used on spells keep 2 HP trackers on the table.
+#### Tracking HP and EP in game
+
+Keep two trackers on the table.
 The HP tracker is initially set on your max HP and goes down when you are damaged.
-The EP tracker is initially set to 1 and goes up when you use HP to cast spells.
+The EP tracker is initially set to 1 and goes up when you use HP to cast spells etc.
 You start dying when HP tracker is lower than EP tracker.
 
 ## Dying
 
 Each player character can aquire up to 3 wounds. Gaining more wounds kills the character.
-When HP becomes lower than EP, you gain 1 wound and start Dying. 
+When HP value changes to be lower than EP, you gain 1 wound and start Dying. 
 While Dying add 1 wound point at the end of your turn.
-When absolute HP would become less than 1, you gain 1 wound point and set HP to 1 instead.
+When HP would become less than 1, you gain 1 wound point in order to set HP back to 1.
 
-When Dying, player can act normally or roll Survival to stop Dying. Another player can aid Dying character, which gives Help on their next Dying roll.
+When Dying, player can act normally or roll Survival to stop Dying. Another player can aid Dying character, which gives Help on their next Survival roll.
 
-Circumstances that restore HP above EP, also stop character from Dying.
+Circumstances that restore HP above EP (or would be able to restore more HP than maximum value), also stop character from Dying.
 
 Consequences apply at the moment of getting a wound:
 
@@ -47,7 +47,10 @@ roll or even impossible to perform.
 ### Rest and regeneration
 
 The time in the game is divided into 6 hour watches. On a rest that takes one
-watch, restore HP by total value of dice on your survival roll. Also heal a minor condition. 
+watch you can choose one of the following:
+- restore all EP
+- restore HP by number of successes on Survival roll
+- heal a minor condition on successful Survival roll
 
 With enough medial attention, character can remove major consequence from wounds tracker and
 instead write down the effect of it in the character details. For example remove

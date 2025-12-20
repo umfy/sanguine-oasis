@@ -1,17 +1,19 @@
 ---
 id: 8
 title: Equipment
-updated: 15.12.2025
+updated: 20.12.2025
 snippet: details
 ---
 
 ## Offense
 ### Weapons
 
+Weak attacks deal 0dmg. (unarmed, throwing rocks).
+Most weapons deal 1dmg. (knives, axes, bows).
+Advanced weapons deal 2dmg (Two handed swords, crossbows).
+
 Weapons differ from each other by narrative aspects like their reach, weight or ability to conceal it.
-
-Many weapons have feats assigned to them.
-
+Many weapons have feats assigned to them:
 - reach
 - heavy
 - light
@@ -28,20 +30,16 @@ This allows a caster to cast these spells without knowing the specific elemental
 ## Defense
 ### Armor
 
-The armor provides the damage mitigation.
+The light armor can provide additional HP.
+Heavy armor can give additional HP and raise minimum value of EP. That causes heavily armoured characters more resistant to taking serious wounds (the HP is less likely to drop below 1).
 
-0 - naked 
-1 - clothing 
-2 - leather 
-3 - chainmail 
-4 - full plate
+Armor can impose a disadvantage to some checks like agility or stealth.
 
-1 - any protective helmet or custom defensive piece
+#### Example
+Mage's robe: +1HP
 
-Heavy armor imposes disadvantage to some checks like agility or stealth.
-
-Some heavy armors allow player to get one more wound before dying - the armor
-gets destroyed instead of player taking a pernament consequence.
+Plate mail: +2HP +2 min EP
 
 ### Shields
+
 Shields allow to win fighting contests when both sides have the same ammount of success, but they also break in the process.

@@ -1,7 +1,7 @@
 ---
 id: 6
 title: Spells
-updated: 2.06.2024
+updated: 20.12.2025
 snippet: details
 ---
 
@@ -15,7 +15,7 @@ Other spells can be accessed by using some magic items.
 
 Make an item glow with a bright light.
 
-#### Ignite (touch, lower die damage, [D6, D6] DoT)
+#### Ignite (touch, 2dmg, [D6, D6] DoT)
 
 Touch the target to damage it and set it on fire.
 
@@ -41,7 +41,7 @@ Gentle white flames surround you giving you protection from warmth and cold.
 The temperature in front of you dramatically drops and all liquids, including
 potions freeze instantly.
 
-#### Water Lash (touch, lower die damage, AoE)
+#### Water Lash (touch, 2dmg, AoE)
 
 Unleash a wide elemental attack around you.
 
@@ -64,7 +64,7 @@ it's max HP. When the damage is higher the target shatters into pieces.
 
 Wind in the area starts moderately blowing in a direction of your choice.
 
-#### Thunderbolt (touch, higher die damage, lower die damage)
+#### Thunderbolt (touch, 3dmg)
 
 Lightning strikes a target.
 
@@ -87,7 +87,7 @@ A sphere of vacuum appears. There is no air nor sound in it.
 
 Shape stone like clay or command plants around you to grow as you wish.
 
-#### Bind (touch, lower die damage, debuff)
+#### Bind (touch, 2dmg, debuff)
 
 The force of nature restricts movement of the target.
 
