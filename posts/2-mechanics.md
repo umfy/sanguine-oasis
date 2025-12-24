@@ -44,4 +44,9 @@ Optionally the situation dramatically changes with a twist when dice show pairs 
 
 ### Probability
 
-[table of scores]
+| Result \ Dice    | D4    | D6    | D8    | D10   | D12   |
+|------------------|-------|-------|-------|-------|-------|
+| Critcal Success  | -     | 2.77  | 6.25  | 8.33  | 9.72  |
+| Success          | 16.66 | 27.77 | 41.66 | 50.00 | 55.55 |
+| Failure          | 70.83 | 61.11 | 45.83 | 36.66 | 30.55 |
+| Critical Failure | 12.50 | 8.33  | 6.25  | 5.00  | 4.16  |
