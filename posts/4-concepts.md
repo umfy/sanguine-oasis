@@ -14,7 +14,7 @@ You hit a specific desired point, a bullseye. It often causes a debuff or bonus 
 Deal 1 damage each turn for 2 turns.
 
 #### Example
-Imagine casting toxic dart (1HP cost) ([D6,D10] -> [1,10]) that deals 1 + 1 = 2 damage instantly and 2 damage DoT later.
+Imagine casting toxic dart (medium range, first free effect: 2dmg, second effect for 1HP: DoT) ([D6,D10] -> [1,10]) that deals 1 + 1 = 2 damage instantly and 1 damage for next 2 turns.
 The target rolls ([D6,D8] -> [4,7]), lower level of success (7 < 10) so spell hits. The spell will deal:
 - 2 damage instantly
 - 1 damage on the start of caster's next turn

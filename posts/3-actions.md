@@ -39,7 +39,9 @@ Example actions:
 
 ## Rolling aganist active opposition
 
-When both sides of the conflict can use their skills to change the outcome of the situation, the larger level of success wins. On a draw, compare numbers on the higher dice. If it's still a draw, something unexpected happens that changes the situation completely.
+When both sides of the conflict can use their skills to change the outcome of the situation, they both roll. A Success beats Failure and Critical Success beats Success. On a draw compare value on each participant's higher die.
+
+If defendng NPC rolls Failure aganist Critical Success, and they are capable of assessing the situation, they loose morale and no longer have motiviation to pursue their goal. That means they yield, run away or change their behaviour dramatically.
 
 For Area of Effect opposition, only the most skilled target rolls for all opposing participants.
 
@@ -53,11 +55,12 @@ You can empower your attack by spending 1 HP before the roll to gain additional 
 
 - 1 damage + weapon damage
 - 1 damage
-- DoT ([D6], [D6] over 2 turns)
+- DoT (bleeding) ([D6], [D6] over 2 turns)
 - AoE
 - charge / range up
 - manouver
-- push 3m -> 6m
+- push 3m
+- push another 3m
 - aimed hit
 
 #### Basic attack
@@ -82,13 +85,13 @@ When casting spells you end your turn unarmed.
 
 Using magic requires you to spend HP equal to the spell's power.
 
-| HP cost | Added spell effects |
-|---------|---------------------|
-| 0       | 0                   |
-| 1       | 1                   |
-| 2       | 2                   |
+| HP cost | Spell effects |
+|---------|---------------|
+| 0       | 1             |
+| 1       | 2             |
+| 2       | 3             |
 
-Every spell has medium range by default. Weapon damage for spells is always 1. When casting a spell, you decide what unique additional effects shoud the spell have:
+Every spell has medium range by default. Weapon damage for spells is always 1. When casting a spell, you decide what unique effects shoud the spell have:
 
 - 1 damage + weapon damage (1)
 - 1 damage
@@ -96,10 +99,13 @@ Every spell has medium range by default. Weapon damage for spells is always 1. W
 - AoE
 - range up
 - debuff
-- push 3m -> 6m
+- push 3m
+- push another 3m
 - aimed hit
 - buff
-- focus -> 6 rounds 
+- focus
+- focus spell lasts 6 rounds
+- heal HP instedad of dealing damage
 
 #### Examples:
 Custom spells made from scratch:

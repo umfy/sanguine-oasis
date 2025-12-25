@@ -36,7 +36,7 @@ Circumstances that restore HP above EP (or would be able to restore more HP than
 Consequences apply at the moment of getting a wound:
 
 - 1 wound: minor consequence (twisted ankle, bleeding nose)
-- 2 wound: major consequence (broken bone, deep cut, piece of equipment broken)
+- 2 wound: major consequence (broken bone, deep cut, piece of equipment destroyed)
 - 3 wound: pernament consequence (limb cut off, pierced organ)
 
 ## Wounds
@@ -48,8 +48,8 @@ roll or even impossible to perform.
 
 The time in the game is divided into 6 hour watches. On a rest that takes one
 watch you can choose one of the following:
-- restore all EP
-- restore HP by number of successes on Survival roll
+- restore all EP on successful Willpower roll
+- restore all HP on successful Endurance roll
 - heal a minor condition on successful Survival roll
 
 With enough medial attention, character can remove major consequence from wounds tracker and

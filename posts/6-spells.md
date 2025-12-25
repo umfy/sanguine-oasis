@@ -15,7 +15,7 @@ Other spells can be accessed by using some magic items.
 
 Make an item glow with a bright light.
 
-#### Ignite (touch, 2dmg, [D6, D6] DoT)
+#### Ignite (touch, 1dmg, 2dmg DoT)
 
 Touch the target to damage it and set it on fire.
 
@@ -41,7 +41,7 @@ Gentle white flames surround you giving you protection from warmth and cold.
 The temperature in front of you dramatically drops and all liquids, including
 potions freeze instantly.
 
-#### Water Lash (touch, 2dmg, AoE)
+#### Water Lash (touch, 1dmg, AoE)
 
 Unleash a wide elemental attack around you.
 
@@ -87,7 +87,7 @@ A sphere of vacuum appears. There is no air nor sound in it.
 
 Shape stone like clay or command plants around you to grow as you wish.
 
-#### Bind (touch, 2dmg, debuff)
+#### Bind (touch, 1dmg, debuff)
 
 The force of nature restricts movement of the target.
 
